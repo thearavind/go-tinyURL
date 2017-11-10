@@ -11,7 +11,7 @@ import (
 	"os"
 	"regexp"
 
-	"./models"
+	"github.com/thearavind/go-tinyURL/models"
 	"github.com/gin-contrib/static"
 	"github.com/gin-gonic/gin"
 )
