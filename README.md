@@ -2,20 +2,14 @@
 
 > URL shortner with Golang, VueJS and PostgreSQL
 
-## Build Setup
+## Features
 
-``` bash
-# install dependencies
-npm install
+* Uses SHA1 Hashing to generate a random has for the input URL and the same has been mapped to the input URL in the postgreSQL database
+* Returns the exsisting short URL if you are trying to shorten the same URL again and again
+* The short URL slugs may consist of `[0-9A-Za-z+_]`
 
-# serve with hot reload at localhost:8080
-npm run dev
+## FrontEnd
 
-# build for production with minification
-npm run build
+VueJS and Vuetify has been used to create the front end of this application
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+The same app has been deployed at [http://go-tiny.herokuapp.com/](http://go-tiny.herokuapp.com/)
